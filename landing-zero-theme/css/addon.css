@@ -3,15 +3,21 @@
     background-image: url("../assets/beach.jpg");
 
     /* Set a specific height */
-    min-height: 500px;
-
+    min-height: 350px;
+;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.parallax_main{
+  height:1000px;
+  background-color:red;
+  font-size:36px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 
 /* Main */
