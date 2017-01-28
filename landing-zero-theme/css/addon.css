@@ -15,9 +15,11 @@ section.module:last-child {
   margin-bottom: 0;
 }
 section.module h2 {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-family: "Roboto Slab", serif;
   font-size: 30px;
+  text-align: center;
+
 }
 section.module p {
   margin-bottom: 40px;
@@ -39,7 +41,7 @@ section.module.parallax {
 }
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
+  font-size: 30px;
   line-height: 600px;
   font-weight: 700;
   text-align: center;
@@ -69,42 +71,15 @@ section.module.parallax-3 {
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 160px;
+    font-size: 90px;
   }
 }
 
 
 
 
-/*****parallax text*/
 
 
-
-
-
-
-
-
-.parallax {
-    /* The image used */
-    background-image: url("../assets/beach.jpg");
-
-    /* Set a specific height */
-    min-height: 350px;
-;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax_main{
-  height:1000px;
-  background-color:red;
-  font-size:36px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
 
 
 /* Main */
