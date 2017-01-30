@@ -117,6 +117,7 @@ padding-bottom:40px;
   margin-top: 20px;
   margin-left:4%;
   padding-bottom: 20px;
+  height: 150px;
 }
 
 .vid-list {
@@ -129,8 +130,8 @@ padding-bottom:40px;
 
 .vid-item {
   display: block;
-  width: 148px;
-  height: 148px;
+  width: 200px;
+  height: 200px;
   float: left;
   margin: 0;
   padding: 10px;
@@ -148,7 +149,7 @@ padding-bottom:40px;
 }
 
 .vid-item .desc {
-  color: #21A1D2;
+  color: white;
   font-size: 15px;
   margin-top:5px;
 }
@@ -162,7 +163,7 @@ padding-bottom:40px;
 .arrow-left {
   color: #fff;
   position: absolute;
-  background: #777;
+  background: transparent;
   padding: 15px;
   left: -25px;
   top: -130px;
@@ -173,7 +174,7 @@ padding-bottom:40px;
 .arrow-right {
   color: #fff;
   position: absolute;
-  background: #777;
+  background: transparent;
   padding: 15px;
   right: -25px;
   top: -130px;
