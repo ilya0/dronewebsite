@@ -41,7 +41,7 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 });
 
 
-// youtube placer
+// youtube player
 
 $(document).ready(function () {
     $(".arrow-right").bind("click", function (event) {
